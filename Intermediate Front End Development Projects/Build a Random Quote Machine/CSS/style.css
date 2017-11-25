@@ -1,0 +1,45 @@
+
+html, body {
+    background: linear-gradient(270deg, #5d269b, #1b17b4, #69118a, #ca3382, #33a7ca);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: AnimationName 32s ease infinite;
+    -moz-animation: AnimationName 32s ease infinite;
+    animation: AnimationName 32s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 68%}
+    50%{background-position:100% 33%}
+    100%{background-position:0% 68%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 68%}
+    50%{background-position:100% 33%}
+    100%{background-position:0% 68%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 68%}
+    50%{background-position:100% 33%}
+    100%{background-position:0% 68%}
+}
+
+.container {
+    padding-top: 150px;
+}
+.card-body{
+    background-color: #FAFAFA;
+}
+.card-title{
+    color: #1565C0;
+    font-size: 35px;
+    font-style: italic;
+}
+.card-text{
+    font-size: 20px;
+    color: #000000;
+}
+.card-header{
+    color: #F44336;
+    font-size: 30px;
+}
